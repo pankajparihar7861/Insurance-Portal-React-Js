@@ -1,0 +1,380 @@
+#hero {
+    width: 100%;
+    height: 70vh;
+    background: url("../../assets/img/Catalogue.png") top center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -200px;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 120px;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+
+#hero .container {
+    position: relative;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+#hero h2 {
+    color: #ffffff;
+    margin: 7px 0 0 0;
+    font-size: 20px;
+}
+
+
+
+
+
+/* SEARCH-BAR  */
+/* ------------------ */
+.search-form input {
+    border: 0;
+    font-size: 14px;
+    color: #012970;
+    border: 1px solid rgba(1, 41, 112, 0.2);
+    padding: 7px 38px 7px 8px;
+    border-radius: 20px;
+    transition: 0.3s;
+    /* width: 100%; */
+}
+
+.header .search-form input:focus,
+.header .search-form input:hover {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(1, 41, 112, 0.15);
+    border: 1px solid rgba(1, 41, 112, 0.3);
+}
+
+#search-btn {
+    margin-left: 19px;
+    border: 0px solid #354052;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 14px;
+    background-image: linear-gradient(to right, #036c8c, #55cef3);
+}
+
+
+
+
+
+
+/* FLIGHT CARD  */
+/* -------------------- */
+#card-design-1 {
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-top: 120px;
+    height: 150px;
+    width: 135px;
+
+    background: white;
+    cursor: pointer;
+}
+
+#card-design-1:hover {
+    background: #12ABDB;
+}
+
+#card-design-1:hover .card-icon-text div {
+    color: white;
+}
+
+#card-design {
+    border-radius: 20px;
+    margin-left: -6px;
+    margin-top: 120px;
+    height: 150px;
+
+    background: white;
+    cursor: pointer;
+}
+
+#card-design:hover {
+    background: #12ABDB;
+}
+
+#card-design:hover .card-icon-text div {
+    color: white;
+}
+
+
+/* SAME AS BELOW CARD-ICON JUST REQRITTEN   TO ROTATE FLIGHT ICON TO LEFT  */
+.flight-icon {
+    transform: rotate(-0.11turn);
+    border-radius: 20px;
+    background-color: #E6F7FC;
+    color: darkblue;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.card-icon {
+    border-radius: 20px;
+    background-color: #E6F7FC;
+    color: darkblue;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.card-icon-text {
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+/* .card-icon-text:hover {
+    color: white;
+    
+} */
+
+
+.insurance-text {
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+.insurance-text h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    color: black;
+    font-size: large;
+}
+
+.insurance-text p {
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* WHEN NORMAL  */
+#compare-btn {
+    border-radius: 20px;
+    border: 2px solid rgb(97, 94, 94);
+    background-color: white;
+    color: rgb(95, 92, 92);
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    position: absolute;
+    float: right;
+    right: 25px;
+    bottom: -45px;
+    cursor: pointer;
+}
+
+/* WHEN HOVERED  */
+/* #compare-btn:hover {
+    background-color: rgb(18, 222, 201);
+    color: white;
+    border: 2px solid rgb(37, 207, 190);
+} */
+
+/* WHEN CLICKED  */
+#compare-btn-clicked {
+    border-radius: 20px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    position: absolute;
+    float: right;
+    right: 25px;
+    bottom: -20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ROW-3  */
+/* --------- */
+.row-3-design {
+    margin-top: -110px;
+}
+
+#big-card-design-1 {
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+#big-card-design-1:hover {
+    background: #12ABDB;
+}
+
+
+#big-card-design {
+    border-radius: 20px;
+    margin-left: -6px;
+    margin-top: 120px;
+
+    background: white;
+    cursor: pointer;
+}
+
+#big-card-design:hover {
+    background: #12ABDB;
+}
+
+.inner-card {
+    border: 0px solid #EAF6FA;
+    background-color: #EAF6FA;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -11px;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.product-header {
+    font-size: 150%;
+    margin-bottom: 9px;
+    margin-top: 26px;
+    margin-left: 6px;
+    color: black;
+}
+
+.product-content {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: rgb(138, 136, 136);
+    font-weight: bolder;
+}
+
+.card-btns {
+    margin-top: 15px;
+}
+
+/* for cards 2,3,4  */
+#get-quote-btn {
+    margin-right: 69px;
+    border: 0px solid #354052;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 14px;
+    background-image: linear-gradient(to right, #048fba, #55cef3);
+    cursor: pointer;
+}
+
+/* for cards 1 */
+#get-quote-btn-1 {
+    margin-right: 60px;
+    border: 0px solid #354052;
+    border-radius: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #048fba, #55cef3);
+    cursor: pointer;
+}
+
+
+#view-btn {
+    border-radius: 20px;
+    background-color: #EAF6FA;
+    border: 0px solid #EAF6FA;
+    color: rgb(101, 98, 98);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.inner-card-icons {
+    margin-left: 170px;
+}
+
+.inner-card-icons-1 {
+    margin-left: 160px;
+}
+
+/* for cards 2,3,4  */
+.share-design {
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.wa-design {
+    border-radius: 75%;
+    background-color: #20D024;
+    padding: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* just for card-1  */
+.share-design-1 {
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.wa-design-1 {
+    border-radius: 55%;
+    background-color: #20D024;
+    padding: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+/* HIDE AND SHOW INFO CARD  */
+.show-hide-info-card {
+    /* transition: 0.9s; */
+    transition: 2s;
+}
+
+#info-card {
+    border-radius: 20px;
+}
+
+.benefits {
+    font-size: 130%;
+    font-family: Tahoma;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.info-font-style {
+    margin-left: 20px;
+    font-family: Geneva;
+    font-size: medium;
+}
+
+
+/* ARROW DOWN  */
+#arrow-down {
+    margin-left: 110px;
+    margin-top: -22px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color: rgb(4, 215, 194);
+}

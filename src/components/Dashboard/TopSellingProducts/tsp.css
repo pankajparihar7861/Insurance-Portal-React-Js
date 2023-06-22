@@ -1,0 +1,34 @@
+.tp-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  /* height: 60px; */
+}
+
+.tp-margin {
+  margin: 10 10px;
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+.tp-margin-2 {
+  margin-left: 50px;
+  font-size: 13px;
+  width: 85px
+}
+
+.progress-card {
+  width: 500px;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#progress-bar {
+  width: 150px;
+  height: 5px;
+}

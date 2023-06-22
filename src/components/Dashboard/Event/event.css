@@ -1,0 +1,579 @@
+/* AWN CSS CODES  */
+
+/* .in {
+    float: right;
+    clear: both;
+}
+
+
+
+
+.inn {
+
+    height: 100px;
+
+    width: 435px;
+
+}
+
+.modal-tmp {
+
+    width: 200%;
+
+}
+
+.form-control {
+
+    border: solid #e2e2e2 1.5px;
+
+    border-radius: 8px;
+
+}
+
+.wish-btn {
+
+    background-image: linear-gradient(to right, #11A6D5, #33C8F7);
+
+    border: none;
+
+    border-radius: 20px;
+
+    color: #fff;
+
+}
+
+.wish-btn:hover {
+
+    color: #fff;
+
+}
+
+.dis-btn {
+
+    color: #50657E;
+
+    border: solid #50657E 2px;
+
+    border-radius: 20px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+}
+
+.dis-btn:hover {
+
+    color: #50657E;
+
+    border: solid #50657E 2px;
+
+
+
+
+}
+
+.wish-icon {
+
+    margin-left: 150px;
+
+    background-color: #E3E4E5;
+
+    padding: 6px;
+
+    border-radius: 50px;
+
+    font-size: 25px;
+
+}
+
+
+
+
+.event {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 215%;
+
+    margin-bottom: 1em;
+
+    
+
+}
+
+
+
+
+.event-details {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+}
+
+
+
+
+.sub-title {
+
+    font-size: 1em;
+
+    font-weight: normal;
+
+    margin-top: 0.5em;
+
+    margin-left: 0px;
+
+    color: #718397;
+
+}
+
+
+
+
+
+.event-name {
+
+    font-size: 1.1em;
+
+}
+
+.event-name img {
+
+    display: inline-block;
+
+    position: absolute;
+
+    width: 35px;
+
+    height: 35px;
+
+
+
+
+}
+
+img:nth-child(n+2) {
+
+    margin-left: -19px;
+
+}
+
+.btn-wish {
+
+    display: flex;
+
+}
+
+.send-wish-btn {
+
+    border: solid #C8CACC 1px;
+
+    background-color: #F1F7FA;
+
+    color: #44434C;
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+    border-radius: 20px;
+
+    padding: 8px;
+
+    text-transform: uppercase;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+}
+ */
+
+
+
+ /* ------------------------------------------- */
+
+
+ /* LATEST  */
+
+ .dashContent{
+    background-color: whitesmoke;
+    padding: 10px 20px 10px 10px ;
+}
+
+.pageHeader{
+    margin: 10px 0px 0px 20px ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list{
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+   
+  }
+
+.sizing{
+    margin: 20px 30px 0px 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#count1{
+    font-weight: bold;
+    font-size: 45px;
+    color: #17a2cd;
+}
+
+#count1 svg{
+    margin: 0px 0px 5px 20px;
+    width: 35px;
+    height: 35px;
+}
+
+#count2{
+    font-weight: bold;
+    font-size: 45px;
+    color: #4B61D1;
+}
+
+#count2 svg{
+    margin: 0px 0px 5px 20px;
+    width: 35px;
+    height: 35px;
+}
+
+#count3{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(20, 180, 180);
+}
+
+.overflow{
+    overflow-y: hidden scroll;
+}
+
+#count3 svg{
+    margin: 0px 0px 5px 20px;
+    width: 35px;
+    height: 35px;
+}
+
+#count4{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(255, 166, 0, 0.89);
+}
+
+#count4 svg{
+    margin: 0px 0px 5px 20px;
+    width: 35px;
+    height: 35px;
+}
+
+#countName{
+    font-weight: bold;
+    color: darkblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rotate180{
+    transform: rotate(180deg);
+    padding: 50px 0px 50px 0px;
+    width: 30px;
+}
+
+#arrowTwo{
+    top: 25px;
+}
+
+.arrowtwo{
+    background-color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+}
+
+.headertwo{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sellPrd{
+    margin: 7px 0px;
+    font-size: 13px;
+}
+
+.sellBottom{
+    padding-bottom: 20px;
+}
+
+.sizing2{
+    margin: 20px 20px 0px 0px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+/* ------------------Applicant table section ---------------------- */
+
+.sizing3{
+    margin: 20px 100px 0px 40px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    width: 10px;
+    /* height: 10px; */
+}
+
+
+.applicantHeader{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 85);
+}
+
+.applicantHeader2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 85);
+}
+
+/* -----------------dropdown----------------- */
+
+.dropdown{
+    padding: 0px 0px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: none !important;
+}
+
+
+.dropdown select{
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    /* box-shadow: none !important; */
+    font-weight: bold;
+    color: rgb(80, 80, 93);
+}
+
+.dropdown select option{
+    font-weight: 600;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+/* -------------Progress bars-------------- */
+.progress{
+    width: 120px;
+    height: 5px;
+    margin: 7px 0px 0px 15px;
+}
+
+.floatR{
+    margin: 4px 0px ;
+    display: flex;
+}
+
+.floatR h6{
+    font-size: 14px;
+}
+
+/* -------------------meeting scheduler-------------------- */
+.date{
+    padding-right: 30px;
+}
+
+.input-field{
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 0.7rem;
+    display: block;
+    font-weight: 600;
+    color: #495057;
+    background-color: rgb(241, 236, 236);
+    border: none;
+    background-clip: padding-box;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 25px;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-repeat:  no-repeat;
+    width: 15px;
+    height: 15px;
+    border-width: thin
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 65%;
+}
+input::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 15%;
+}
+input::-webkit-datetime-edit {
+    position: relative;
+    left: 10%;
+} */
+
+.dateCard{
+    margin: 5px -7px;
+    /* width: 450px; */
+}
+
+.dateCard1{
+    margin: 0px 0px;
+    /* width: 430px; */
+    padding: 5px 5px 5px 15px;
+    
+}
+
+.dateCard .card{
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    width: 59px;
+    height: 58px;
+    display: inline-block;
+}
+
+.dateCard .card p{
+    /* padding-bottom: 2px; */
+    margin-bottom: 5px;
+    font-size: 15px;
+    /* margin-right: 5px; */
+}
+
+.bgazure{
+    background-color: azure;
+}
+
+.bgwhitesmoke{
+    background-color: whitesmoke;
+}
+
+.float .bi-people {
+    width: 30px;
+    height: 30px;
+}
+
+.bipeople{
+    font-size: large;
+}
+
+.float 
+h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.callVideo{
+    float: right;
+    padding-left: 10%;
+    margin-top: 5px;
+}
+
+.callVideo svg{
+    border-radius: 16px;
+    padding:10px;
+    width: 38px;
+    height: 38px;
+}
+
+.callVideo svg:hover{
+    border-radius: 16px;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+}
+
+.meetWith{
+    padding-left: 25px;
+}
+
+/* ------------------------Todays events------------------------------- */
+.sizing4{
+    margin: 20px 20px 0px 0px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
+}
+
+.fa-birthday-cake{
+    color: rgb(19, 170, 216);
+    height: 30px;
+    width: 30px;
+    padding: 5px 8px 0px 0px;
+    border-radius: 30px;
+    background-color: rgb(220, 220, 220);
+}
+
+/* -----------------Avatar------------------- */
+.av1{
+    /* background-color: red; */
+    width: 170px;
+    margin: 15px 0px 8px 0px;
+}
+
+.avatarGroup p{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.avatar{
+    margin: -7px;
+}
+
+.av2{
+    width: 170px;
+    margin: 5px 0px 8px 0px;
+}
+
+
+/* my css  */
+
+.floatt {
+    display: inline-flex;
+    /* background-color: red; */
+}
+
+.cake-div {
+    margin-left: 250px;
+    /* margin-bottom: 2px; */
+    /* background-color: red; */
+}
+
+.cake-custom-tag {
+  background-color: #eeeee4;
+  border-radius: 50px; 
+  color: #1BABDB;
+  padding: 17px
+}

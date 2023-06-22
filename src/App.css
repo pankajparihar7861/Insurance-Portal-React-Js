@@ -1,0 +1,304 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin:0;
+  background-color: whitesmoke;
+}
+
+/* //vertical */
+.scroll-y {
+  overflow-y: auto;
+  max-height: 80vh;
+}
+  
+/* // horizantal */
+.scroll-x {
+overflow-x: auto;
+max-width: 70%;
+}
+
+.left{
+  text-align: left;
+  float: left;
+}
+
+.right{
+  text-align: right;
+  float: right;
+}
+
+.center{
+  text-align: left;
+  align-items: center;
+}
+
+
+.main{
+  width: 100%;
+}
+
+.sideDash{
+  position: relative; 
+}
+
+.fixed{
+  position: fixed;
+}
+
+
+.shadowTop {
+  box-shadow: 0px -5px 10px -15px rgb(196, 192, 192);    
+}
+
+.shadowBottom {
+  box-shadow: 0px 15px 10px -15px rgb(184, 182, 182);    
+}
+
+.shadowLeft {
+  box-shadow: -15px 0px 10px -15px rgb(197, 194, 194);    
+}
+
+.shadowRight {
+  box-shadow: 15px 0px 10px -15px rgb(190, 190, 190);    
+}
+
+
+.mainData{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  margin-top: 75px;
+  padding-left: 100px;
+  background-color: white;
+}
+
+.textDecoration{
+  text-decoration: none;
+}
+
+.float{
+  display: flex;
+}
+
+.rightGrid{
+  display: grid;
+}
+
+.gridOne{
+  width: auto;
+  /* width: 10%; */
+  position: absolute;
+}
+
+.gridTwo{
+  position: absolute;
+  margin-left: 90px;
+  padding-right: 80px;
+}
+
+/* ---------------------------DashBoard------------------------------- */
+ol{
+  display: inline-block;
+  text-align: left;
+}
+
+.dashboard{
+  width: 100%;
+  height: 100%;
+  min-height: 136vh;
+  background: white;
+  box-shadow: 3px 0 3px -2px rgb(203, 199, 199);
+  border-right: 1px solid grey;
+  position: relative;
+  z-index: 1;
+  max-width: 100px;
+  transition: 0.3s ease-in-out;
+}
+
+ol{
+  margin-top: 10px;
+}
+
+
+ol li{
+  list-style-type: none;
+  margin-top: 17px;
+}
+
+ol li .Link {
+  text-decoration: none ;
+  text-decoration: dashed;
+  font-weight: bold;
+  color: grey;
+  text-transform: capitalize;
+  display: inline-flex;
+  border: none;
+  background: transparent;
+  height: 40px;
+  margin: 0px 5px;
+  border-radius: 20px;
+}
+
+
+ol li button {
+  text-decoration: none ;
+  text-decoration: dashed;
+  font-weight: bold;
+  color: grey;
+  text-transform: capitalize;
+  display: inline-flex;
+  border: none;
+  background: transparent;
+  height: 40px;
+  margin: 0px 0px;
+  border-radius: 20px;
+}
+
+.dashboard ol li button p{
+  font-size: 18px;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+.dashboard ol li .Link p{
+  font-size: 18px;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+#check:checked ~ .dashboard ol li button p{
+  transform: scale(1);
+  transition: 1s;
+}
+
+#check:checked ~ .dashboard ol li .Link p{
+  transform: scale(1);
+  transition: 1s;
+}
+
+ol li button:hover {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.786);
+  transition: 0;
+}
+
+ol li .Link:hover {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.786);
+  transition: 0;
+}
+
+.bi{
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.bi-terminal-split{
+  width: 27px;
+  height: 27px;
+}
+
+.bi-kanban{
+  width: 25px;
+  height: 25px;
+}
+
+.bi:hover{
+  background-color: transparent;
+  fill: #1da1f2;
+  width: 28px;
+  height: 28px;
+  transition: 0.2s;
+}
+
+.bi-chevron-left{
+  border : 1px solid grey;
+  padding: 7px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.bi-chevron-left:hover{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 5px grey;
+  transition: 0.3s;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.hide{
+  /* -webkit-appearance:inherit; */
+  display: none;
+  visibility: hidden;
+}
+
+ol li label #arrow{
+  margin: 5px 0px;
+}
+
+#check:checked ~ .dashboard ol li label #arrow{
+  transform: rotate(180deg);
+  transition: 0.5s;
+  margin-left: 100px;
+}
+
+#check:checked ~ .dashboard {
+  max-width: 350px;
+  padding-right: 30px;
+}
+
+/* -----------Hide scrollbar--------------- */
+.bar {
+  height: 200px;
+  width: 800px;
+}

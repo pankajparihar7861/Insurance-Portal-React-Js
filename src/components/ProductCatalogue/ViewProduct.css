@@ -1,0 +1,107 @@
+.top-design {
+    margin-left: -25px;
+    margin-top: -11px;
+    margin-right: -20px;
+}
+
+.product-card {
+    background-color: #EAF6FA;
+}
+
+.card-heading {
+    display: inline-flex;
+}
+
+#arrow-icon {
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.card-heading-text {
+    margin-top: -7px;
+}
+
+.card-content {
+    margin-top: 10px;
+    margin-left: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.4em;
+}
+
+.whatsapp {
+    border-radius: 50%;
+    background-color: #62ff65;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.share {
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 9px;
+    margin-right: 10px;
+}
+
+.whatsapp-share {
+    position: absolute;
+    float: right;
+    left: 1040px;
+    bottom: 111px;
+}
+
+.btns {
+    margin-right: 783px;
+    margin-top: 25px;
+}
+
+#calculate-btn {
+    margin-left: 10px;
+
+    border-radius: 20px;
+    border: 2px solid rgb(97, 94, 94);
+    background-color: white;
+    color: rgb(95, 92, 92);
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#get-btn {
+    margin-right: 10px;
+
+    border: 0px solid #354052;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 14px;
+    background-image: linear-gradient(to right, #0B9FCE, #39CEFD);
+}
+
+
+
+#tab-1 {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    margin-right: 60px;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: black !important;
+}
+
+
+
+/* ELIGIBILTY TABLE  */
+/* -------------------- */
+
+#header-design {
+    background-color: #354052 !important;
+    color: white;
+}
+
+#table-design {
+    width: 90%;
+}
+

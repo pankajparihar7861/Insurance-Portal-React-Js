@@ -1,0 +1,38 @@
+.sidebar-container{
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    top: 1;
+    /* width: 80px; */
+}
+
+.sidebar{
+    /* width: 80px; */
+    background-color: white;
+    transition: width 0.3s easw-in-out;
+}
+
+.sidebar.open {
+    width: 200px;
+}
+
+.toggle-arrow {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out;
+}
+
+.toggle-arrow i {
+    font-size: 20px;
+}
+
+.rs-sidenav-default .rs-sidenav-default, .rs-sidenav-default .rs-dropdown-toggle, .rs-sidenav-default .rs-sidenav-item, .rs-sidenav-default .rs-sidenav-toggle-button {
+    background-color: #ffffff!important;
+}
+.rs-sidenav-default .rs-sidenav-toggle{
+    /* border-top-color: red!important; */
+}

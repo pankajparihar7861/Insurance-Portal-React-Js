@@ -1,0 +1,590 @@
+/* STEP-1 PERSONAL DETAILS  */
+.StepButton-d2-0-2-8.active {
+    background-color: #1BABDB !important;
+}
+
+.StepButton-d2-0-2-8.completed {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d2-0-2-8 {
+    background-color: #ffffff !important
+}
+
+.StepButtonContent-d3-0-2-9 {
+    /* color: #88909B !important; */
+    color: black !important;
+}
+
+/* STEP-2 INCOME DETAILS  */
+
+.StepButton-d6-0-2-18.active {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d6-0-2-18.completed {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d6-0-2-18 {
+    background-color: #ffffff !important;
+}
+
+.StepButtonContent-d7-0-2-19 {
+    /* color: #88909B !important; */
+    color: black !important;
+}
+
+/* .StepButtonContent-d7-0-2-19.active {
+    color: red
+} */
+
+
+/* STEP-3 DOCUMENTS  */
+
+.StepButton-d10-0-2-32.active {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d10-0-2-32.completed {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d10-0-2-32 {
+    background-color: #ffffff !important;
+}
+
+.StepButtonContent-d11-0-2-33 {
+    /* color: #88909B !important; */
+    color: black !important;
+}
+
+
+
+/* STEP-4 QUOTATION  */
+
+.StepButton-d14-0-2-44.active {
+    background-color: #1BABDB !important
+}
+
+.StepButton-d14-0-2-44.completed {
+    background-color: #1BABDB !important
+}
+
+
+.StepButton-d14-0-2-44 {
+    background-color: #ffffff !important;
+}
+
+.StepButtonContent-d15-0-2-45 {
+    /* color: #88909B !important; */
+    color: black !important;
+}
+
+#stepper-design {
+    border: 0px solid;
+    background-color: #2E4765;
+    color: #ffffff;
+    margin-left: -5px;
+    margin-right: 200px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    /* padding-top: 10px; */
+    font-size: 70%;
+}
+
+.StepperContainer-0-2-1 {
+    padding: 10px !important
+}
+
+/* SHARE WHATSAPP ICONS  */
+/* -------------------------- */
+
+.share-whatsapp-icons {
+    /* justify-content: flex-end; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin-left: 250px; */
+    position: relative;
+    right: -433px;
+    bottom: 0;
+}
+
+.share-whatsapp-icons .share-design {
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.share-whatsapp-icons .wa-design {
+    border-radius: 50%;
+    background-color: #20D024;
+    padding: 6px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.share-whatsapp-icons-overflow {
+    overflow-x: hidden;
+    align-items: center;
+}
+
+
+.protect-form-heading {
+    margin-top: 15px;
+}
+
+
+
+
+/* PERSONAL DETAILS  */
+/* ------------------------- */
+
+#input-design {
+    border-radius: 12px;
+    border: 2px solid rgb(169, 165, 165);
+}
+
+.label-design {
+    font-weight: bold;
+    font-family: verdana;
+    margin-bottom: 10px;
+    color: #354052;
+}
+
+#dob-input-design {
+    width: 100%;
+    height: 41px;
+}
+
+.radio-options-gap {
+    margin-right: 100px;
+}
+
+#radio-label-gap {
+    margin-right: 20px;
+}
+
+#btn-position {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+#btn-position #btn-design-1 {
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1BABDB;
+    border: 0px solid #1BABDB;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-position #btn-design-2 {
+    margin-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #ffffff;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#textarea-design {
+    border-radius: 12px;
+    border: 2px solid rgb(169, 165, 165);
+    height: 200px;
+    margin-left: -3px;
+}
+
+.gap-design {
+    margin-right: 145px;
+}
+
+
+
+
+/* DEPENDANTS */
+/* ----------------- */
+.dependants-cards {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px #888888;
+}
+
+#dependants-btn {
+    border: 2px solid #354052;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #354052;
+    padding-left: 25px;
+    padding-right: 30px;
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dependants-cards .couple-icon {
+    font-size: 34px;
+    color: #261E7A;
+}
+
+.dependants-cards .mom-icon {
+    font-size: 34px;
+    color: #261E7A;
+}
+
+.dependants-cards .dad-icon {
+    font-size: 34px;
+    color: #261E7A;
+}
+
+.dependants-cards .baby-icon {
+    font-size: 32px;
+    color: #261E7A;
+}
+
+.dependants-cards .three-dots {
+    font-size: 32px;
+    color: #261E7A;
+}
+
+
+
+
+
+
+
+/* cards label  */
+/* --------------- */
+.cards-label {
+    margin-left: 8px;
+}
+
+.cards-label-father {
+    margin-left: 12px;
+}
+
+.cards-label-child {
+    margin-left: 14px;
+}
+
+.cards-label-other {
+    margin-left: 13px;
+}
+
+
+
+
+
+/* FOOTER  */
+/* ------------------- */
+.footer-btn {
+    border: 0px solid black;
+    margin-left: 60px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px -1px grey;
+    margin-bottom: -5px;
+}
+
+#footer-back-btn {
+    border: 0px solid #354052;
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    color: #9F9F9F;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin: 20px;
+    margin-left: 35px;
+    position: absolute;
+    left: -11px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer-next-btn {
+    border: 0px solid #354052;
+    border-radius: 20px;
+    /* background-color: #11A5D4; */
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #11A6D5 , #5dd4f9);
+}
+
+.footer-margin-top {
+    margin-top: 60px;
+}
+
+
+
+
+/* INCOME DETAILS  */
+/* ---------------------- */
+.bottom-extra-space {
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/* DOCUMENTS */
+/* ---------------- */
+.documents-card {
+    border-radius: 10px;
+}
+
+#gallery-icon {
+    /* border: 6px solid wheat; */
+    font-size: 60px;
+    margin-left: 180px;
+    color: #4CC2E9;
+    margin-top: 20px;
+}
+
+.upload-image-text {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(115, 110, 110);
+}
+
+.file-border {
+    background-color: #F7F8FC;
+    border-style: dashed !important;
+    border-width: 2px;
+    border-radius: 10px;
+    color: #11A5D4;
+}
+
+#cam-icon {
+    position: absolute;
+    float: left;
+    right: 25px;
+    top: 25px;
+    color: #475D78;
+    font-size: 20px;
+}
+
+.card-footer-design {
+    background-color: whitesmoke;
+}
+
+.card-height {
+    height: 183px;
+}
+
+
+
+
+/* QUOTATION  */
+/* ----------------  */
+
+
+.quotation-card {
+    border-radius: 20px;
+}
+
+.align-right {
+    position: absolute;
+    left: 800px;
+}
+
+.align-right-2 {
+    position: absolute;
+    left: 780px;
+}
+
+#view-benefits-btn {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: #AEB8C3;
+    color: #79838f;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    float: left;
+    bottom: 10px;
+}
+
+.quotation-headings {
+    color: rgb(165, 164, 164);
+}
+
+.quotation-headings-values {
+    font-weight: bolder;
+    color: black;
+}
+
+.share-wa-icons-quot {
+    position: relative;
+    right: -370px;
+    bottom: 0;
+}
+
+.share-wa-icons-quot .share-design {
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: #F5F6FA;
+    padding: 6px;
+}
+
+.share-wa-icons-quot .wa-design {
+    border-radius: 50%;
+    background-color: #20D024;
+    padding: 7px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.edit-icon {
+    margin-left: 600px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+}
+
+.calling-icon {
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+}
+
+.mail-icon {
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+}
+
+
+
+/* QUOTATION SUMMARY PAGE  */
+/* ------------------------------- */
+
+#notification-title {
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#notified-text {
+    font-weight: normal;
+    font-size: 70%;
+    color: black;
+    margin-left: 44px;
+}
+
+#check-circle {
+    border-radius: 80%;
+    background-color: #CCE1DA;
+    color: #006845;
+    font-size: 40px;
+    padding: 7px;
+}
+
+
+.edit-icon-q {
+    margin-left: 774px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: darkblue;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+    /* position: absolute; */
+    /* top: 43px; */
+}
+
+.calling-icon-q {
+    margin-right: 20px;
+    border-radius: 50%;
+    color: darkblue;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+}
+
+.mail-icon-q {
+    border-radius: 50%;
+    color: darkblue;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 7px;
+    box-shadow: 0px 4px 8px -1px;
+}
+
+.align-icons {
+    position: absolute;
+    top: 20px
+}
+
+.headings-summary {
+    color: rgb(143, 141, 141);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.values-summary{
+    font-weight: bolder;
+    color: black;
+    font-weight: bolder;
+}
+
+#uw-process {
+    border: 0px solid #FFBE0F;
+    background-color: #FFBE0F;
+    color: white;
+    padding: 5px;
+    width: 55%;
+    border-radius: 5px;
+}
+
+.summary-table {
+    width: 50%;
+    margin-left: 45px;
+}
+
+
+
+/* FIXING STEPPER AT TOP AND MAKING IT STAY THERE  */
+
+.fixed-top-design {
+    margin-left: 90px;
+    margin-top: 60px;
+    padding-left: 40px;
+    margin-left: 60px;
+    border: 0px solid white;
+}
+
+.cg-protect {
+    font-weight: bolder;
+    color: black;
+}
+
+.top-margin {
+    margin-top: 150px
+}
+
+
